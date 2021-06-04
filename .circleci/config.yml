@@ -35,7 +35,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "e5:1c:09:a5:2c:a4:31:0e:af:29:3f:9f:25:01:7c:d5"
-      - run: ssh -oStrictHostKeyChecking=no circleci@$localhost './deploy.sh'
+      - run: ssh -oStrictHostKeyChecking=no thanhtung@$localhost './deploy.sh'
 
 workflows:
   my-build-deploy:
