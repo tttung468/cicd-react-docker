@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello ReactJs!</h1>
-        <p>CI/CD with ReactJS and Docker.</p>
+        <p>Hello world!! CI/CD with ReactJS and Docker.</p>
       </header>
     </div>
   );

@@ -1,0 +1,8 @@
+# docker-compose deploys website on localhost
+
+version: "3.3"
+services:
+        mywebsite:
+                image: tttung468/cicd-react-docker:latest
+                ports:
+                        - "8080:80"
